@@ -1,0 +1,37 @@
+/* add flex to wrapper */
+
+.wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+.box {
+    text-align: center;
+    color: #fff;
+    border: 2px solid black;
+    padding: 20px;
+    font-size: 150%;
+    box-sizing: border-box;
+}
+
+.a {
+    background-color: green;
+    width: 100%;
+}
+
+.b{
+    background-color: yellow;
+    width: 25%;
+}
+
+.c{
+    background-color: red;
+    width: 75%;
+}
+
+.d{
+    background-color: green;
+    width: 100%;
+}

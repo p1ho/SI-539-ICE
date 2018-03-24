@@ -1,0 +1,31 @@
+/* for bootstrap3 */
+
+body {
+    margin: 8px !important; 
+    /* since flex and grid system have these margins as well, I'll just set it for consistency*/
+}
+
+.box {
+    text-align: center;
+    color: #fff;
+    border: 2px solid black;
+    padding: 20px;
+    font-size: 150%;
+    box-sizing: border-box;
+}
+
+.a {
+    background-color: green;
+}
+
+.b {
+    background-color: yellow;
+}
+
+.c {
+    background-color: red;
+}
+
+.d{
+    background-color: green;
+}

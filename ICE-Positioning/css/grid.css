@@ -1,0 +1,59 @@
+/* add grid to wrapper */
+
+.wrapper {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.box {
+    text-align: center;
+    color: #fff;
+    border: 2px solid black;
+    padding: 20px;
+    font-size: 150%;
+    box-sizing: border-box;
+}
+
+.a {
+    background-color: green;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 4;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-column: 1 / span 4;
+    grid-row: 1;
+}
+
+.b{
+    background-color: yellow;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-column: 4;
+    grid-row: 2;
+}
+
+.c{
+    background-color: red;
+    -ms-grid-column: 4;
+    -ms-grid-column-span: 1;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-column: 1 / span 3;
+    grid-row: 2;
+}
+
+.d{
+    background-color: green;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 4;
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    grid-column: 1 / span 4;
+    grid-row: 3;
+}

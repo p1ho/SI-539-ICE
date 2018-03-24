@@ -1,0 +1,58 @@
+/*-----Responsive Design -----*/
+
+@media only screen and (min-width: 650px) {
+    
+    .top-nav ul li {
+        display: inline-block;
+        margin: 0;
+        width: 24.2%;
+        border: 0;
+    }
+    .top-nav ul {
+        border-top: 1px solid #F54320;
+        width: 70vw;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .photo-cell{
+        display: inline-block;
+    }
+    
+    .vertical {
+        width: 47.5%;
+    }
+   
+}
+
+@media only screen and (min-width: 1000px)  {
+    
+    .logo {
+        display: inline-block;
+        float: left;
+    }
+    .logo img {
+        width: 60px;
+        height: 60px;
+    }
+    .top-nav ul {
+        border: 0;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        width: 60vw;
+        max-width: 700px;
+        float: right;
+    }
+    .top-nav ul li a {
+        vertical-align: middle;
+        line-height: 60px;
+    }
+    
+    .horizontal {
+        width: 47.5%;
+    }
+    .vertical {
+        width: 22.5%;
+    }
+}

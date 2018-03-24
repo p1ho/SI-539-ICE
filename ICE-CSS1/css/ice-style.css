@@ -1,0 +1,74 @@
+/* header */
+
+body {
+	background-color: gray;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#wrap {
+	margin: auto;
+	background-color: green;
+	width: 725px;
+	height: 470px;
+}
+
+header h1 {
+	height: 40px;
+	display: block;
+	text-align:right;
+	background-color: yellow;
+}
+
+nav ul {
+	padding-left: 40px;
+	display: block;
+	height: 35px;
+}
+
+nav ul li {
+	display: inline-block;
+	height: inherit;
+	background-color: black;
+}
+
+nav ul li a {
+	padding: 8px 20px 8px 35px;
+	vertical-align: middle;
+	display: inline-block;
+	height: inherit;
+	text-decoration: none;
+	color: white;
+}
+
+aside {
+	height: 395px;
+	width: 150px;
+	float: right;
+	background-color: white;
+	background-image: url("http://www.literarygenius.info/images/william-shakespeare.jpg");
+	background-repeat: no-repeat;
+	background-position: center 150px;
+	background-size: 150px;
+}
+
+aside ul {
+	margin-left: 40px;
+}
+
+#content {
+	background-color: #4d4d4d; /*Tried DimGray, but doesn't look quite the same */
+}
+
+#content ul {
+	text-align: center;
+	list-style: none;
+}
+
+.copyright {
+	padding-left: 5px;
+	padding-top: 15px;
+}
