@@ -43,14 +43,18 @@
         const imgs = $('img');
         const img_div = $('#image');
         const msg = img_div.text().trim();
-        imgs.on('mouseover',imgs,function(){
+        function enter(){
             img_div.css("backgroundImage", "url('" + $(this).attr('src') + "')");
             img_div.text($(this).attr('alt'));
-        });
-        imgs.on('mouseleave',imgs,function(){
+        }
+        function leave(){
             img_div.css("backgroundImage", "");
             img_div.text(msg);
-        });
+        }
+        imgs.on('mouseover', imgs, enter);
+        imgs.on('mouseleave', imgs, leave);
+        imgs.on('focus', imgs, enter);
+        imgs.on('focusout'.imgs, leave);
     }); 
 	</script>
 </head>
